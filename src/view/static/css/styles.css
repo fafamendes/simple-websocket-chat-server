@@ -9,6 +9,18 @@ body {
     min-height: 400px;
     border: 1px solid #a7a7a7;
     position: relative;
+    border-radius: 20px;
+    margin: auto auto 20px auto;
 }
 
-.chat-input {}
+.chat-container .other {
+    text-align: left;
+    color: red;
+
+}
+
+.chat-container .me {
+    text-align: right;
+    color: blue;
+    
+}
